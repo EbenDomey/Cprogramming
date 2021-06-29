@@ -7,10 +7,10 @@ int main(){
     int c;
     c = a + b;
     printf("The sum of %d and %d is %d\n",a,b,c);
-    int degree;
+    int degree=0;
     float myNum=1.8;
     int secNum = 32;
     float result = (degree * myNum) + secNum;
-    printf("%d is equal to %fF\n",degree,result);
+    printf("%d is equal to %ffahrenheight \n",degree,result);
     return 0;
 }
