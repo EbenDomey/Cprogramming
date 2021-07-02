@@ -1,8 +1,9 @@
 #include<stdio.h>
 int main(){
     float Basic,DA,HRA,Gs;
-    Basic = 500.0;
+    Basic = 500;
     DA=0.4 *Basic;
+    // another way to run the code is to use
     HRA=0.2 *Basic;
     Gs = DA+HRA+Basic;
     printf("%f\n",Gs);
