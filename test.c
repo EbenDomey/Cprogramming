@@ -6,7 +6,7 @@ int main(){
     HRA=0.2 *Basic;
     Gs = DA+HRA+Basic;
     printf("%f\n",Gs);
-    float c=(float) 98/10;
+    float c=(float) 98/10; //this is to convert the fraction to a decimal
     printf("%f",c);
 
 }
