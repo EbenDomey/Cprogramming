@@ -32,7 +32,7 @@ int main(){
     perimeter= (2*length) + (2*width);
     printf("Length: %.3f  Width: %.3f  Area: %.3f  Perimeter: %.3f\n",length,width,recArea,perimeter);
 
-    //problem 5
+    //problem 5h
     float firstNum, secNum, intermediary;
     printf("Input your first number for swapping\n");
     scanf("%f",&firstNum);
