@@ -24,7 +24,7 @@ int main(){
     hypotenuse = (height*height)+(base*base);
     printf("Your value for height and base are %.3f and %.3f and the hypotenuse is %.3f\n",height,base,pow(hypotenuse,0.5));
 
-    //problem 3
+    //problem 4
     float length,width,recArea,perimeter;
     printf("Input your value for length and width\n");
     scanf("%f %f",&length,&width);
@@ -32,7 +32,7 @@ int main(){
     perimeter= (2*length) + (2*width);
     printf("Length: %.3f  Width: %.3f  Area: %.3f  Perimeter: %.3f\n",length,width,recArea,perimeter);
 
-    //problem 4
+    //problem 5
     float firstNum, secNum, intermediary;
     printf("Input your first number for swapping\n");
     scanf("%f",&firstNum);
