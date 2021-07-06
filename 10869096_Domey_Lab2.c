@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    int A;
+    int A;//A is initialized for user input holding
     printf("Input your age\n");
     scanf("%d",&A);//this requests for user input of age
     if(A>=0 && A<=3){
