@@ -11,6 +11,6 @@ int myArray[10]={2,0,5};
     int i;
     for(i=0;i<3;i++)
     {
-        printf("%d\n",myArray[i]);
+        printf("For index %d, the value is: %d\n",i,myArray[i]);
     }
 }
