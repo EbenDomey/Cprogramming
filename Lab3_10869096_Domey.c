@@ -12,5 +12,12 @@ int myArray[10]={2,0,5};
     for(i=0;i<3;i++)
     {
         printf("For index %d, the value is: %d\n",i,myArray[i]);
-    }
+    }    int d;
+/*printf("Please input a year\n");
+scanf("%d",&d);
+if(d%4==0){
+    printf("This is a leap year\n");
+}else{
+    printf("This is an ordinary year\n");
+}*/
 }
