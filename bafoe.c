@@ -1,13 +1,10 @@
 #include<stdio.h>
 int main(){
-int n;
-printf("Input a value to find the range of even numbers\n");
-scanf("%d", &n);
-for(int i=1; i<n; i++){
-    if(i%2!=0){
-        continue;
-    }
-    printf("%d\n", i);
-}
+printf("****************************************************************");
+printf("*             Programming Assignment 1                         *");
+printf("* .            Computer Programming 1                          *");
+printf("*                   Author: Ebenezer                           *");
+printf("*             Due Date: Thursday, Jan. 24                      *");
+printf("****************************************************************");
 }
 
