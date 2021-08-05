@@ -75,13 +75,13 @@ int rootQuadraticFinder(float a, float b, float c){
         printf("This quadratic equation will return complex roots\n");
     }else if(t>0){
         printf("This quadratic equation will return real distinct roots\n");
-        x=(float)(-b+sqrt(t))/(2*a);
-        y = (float)(-b-sqrt(t))/(2*a);
-        printf("The roots of the quadratic equation is %.1f and %.1f",x,y);
+        x=(float)(-b+pow(t,0.5))/(2*a);
+        y = (float)(-b-pow(t,0.5))/(2*a);
+        printf("The roots of the quadratic equation is %.1f and %.1f\n",x,y);
     }else if(t==0){
         printf("This quadratic equation will return real equal roots\n");
-        x=(float)(-b+sqrt(t))/(2*a);
-        printf("The root of the quadratic equation is %.1f",x);
+        x=(float)(-b+pow(t,0.5))/(2*a);
+        printf("The root of the quadratic equation is %.1f\n",x);
     }
     return 0;
 }

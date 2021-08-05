@@ -1,10 +1,21 @@
 #include<stdio.h>
+#include<ctype.h>
 int main(){
-printf("*********************************************************\n");
-printf("*             Programming Assignment 1                  *\n");
-printf("*              Computer Programming 1                   *\n");
-printf("*                   Author: Ebenezer                    *\n");
-printf("*             Due Date: Thursday, Jan. 24               *\n");
-printf("*********************************************************\n");
+    char a,b;
+    printf("%d\n",(15<10));
+    printf("input a letter\n");
+    scanf("%c",&a);
+    b=tolower(a);
+    switch(b){
+        case 'r':
+        printf("You are a residential\n");
+        break;
+        case 'b':
+        printf("You are in business\n");
+        break;
+        default:
+        printf("This input is not recognized in the menu\n");
+        break;
+    }
 }
 
