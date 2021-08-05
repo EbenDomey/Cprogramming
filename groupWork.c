@@ -1,6 +1,5 @@
 #include<stdio.h>
 #include<math.h>
-
 void displayIntro();
 void change(int *sum,int b);
 void areaAndPerimeter(double length,double width,double *area, double *perimeter);
