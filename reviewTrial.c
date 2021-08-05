@@ -63,23 +63,13 @@ if(k<0){
 }*/
 
 /*
-for(i=1;i<5;i++){
-    switch(i){
-        case 1:
-        printf("*\n");
-        break;
-        case 2:
-        printf("**\n");
-        break;
-        case 3:
-        printf("***\n");
-        break;
-        case 4:
-        printf("****\n");
-        break;
+for(i=0;i<=5;i++){
+    for(j=0;j<=i;j++){
+        printf("*");
     }
-}*/
-
+    printf("\n");
+}
+*/
 /*
 printf("Input a number\n");
 scanf("%d",&i);

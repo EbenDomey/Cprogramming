@@ -1,10 +1,10 @@
 #include<stdio.h>
 int main(){
-printf("****************************************************************");
-printf("*             Programming Assignment 1                         *");
-printf("* .            Computer Programming 1                          *");
-printf("*                   Author: Ebenezer                           *");
-printf("*             Due Date: Thursday, Jan. 24                      *");
-printf("****************************************************************");
+printf("*********************************************************\n");
+printf("*             Programming Assignment 1                  *\n");
+printf("*              Computer Programming 1                   *\n");
+printf("*                   Author: Ebenezer                    *\n");
+printf("*             Due Date: Thursday, Jan. 24               *\n");
+printf("*********************************************************\n");
 }
 
