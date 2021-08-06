@@ -67,9 +67,9 @@ void areaAndPerimeter(double length, double width, double *area, double *perimet
 //return-type function
 int areaOfTriangle(float a, float b, float c,float *f){
     float s,d;
-    s=(float)(1/2)*(a+b+c);
+    s=(0.5*a)+(0.5*b)+(0.5*c);
     d=s*(s-a)*(s-b)*(s-c);
-    *f=pow(d,1/2);
+    *f=pow(d,0.5);
     return *f;
 }
 int rootQuadraticFinder(float a, float b, float c){
