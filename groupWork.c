@@ -8,26 +8,31 @@ int rootQuadraticFinder(float a, float b, float c);
 
 
 int main(){
-    //displayIntro();
+    displayIntro();
     int x,y=10;
-    float q,f,o;
+    float q,f,o,b,c,d;
     double l,w,a,p;
-    /*
-    printf("Y is %d\n",y);
+    printf("\nY is %d\n",y);
     printf("Please input your first value\n");
     scanf("%d", &x);
     change(&x,y);
     printf("This is the new value of x %d\n", x);
-    printf("However, the value for b remains %d\n",y);
-    printf("Input a value for the length\n");
+    printf("However, the value for y remains %d outside the function\n",y);
+    printf("\n\nInput a value for the length\n");
     scanf("%lf",&l);
     printf("Input a value for the width\n");
     scanf("%lf",&w);
     areaAndPerimeter(l,w,&a,&p);
     printf("%.2lf is the area of a rectangle\n%.2lf is its perimeter\n",a,p);
-    q=areaOfTriangle(9,3,5,&f);
-    printf("Therefore the area of the triangle is %.3f\n",f);*/
-    printf("a: ");
+    printf("\n\nfirst number: ");
+    scanf("%f",&b);
+    printf("second number: ");
+    scanf("%f",&c);
+    printf("third number: ");
+    scanf("%f",&d);
+    q=areaOfTriangle(b,c,d,&f);
+    printf("Therefore the area of the triangle is %.3f\n",f);
+    printf("\n\na: ");
     scanf("%f",&q);
     printf("b: ");
     scanf("%f",&f);
