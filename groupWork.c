@@ -6,7 +6,6 @@ void areaAndPerimeter(double length,double width,double *area, double *perimeter
 int areaOfTriangle(float a, float b, float c, float *f);
 int rootQuadraticFinder(float a, float b, float c);
 
-
 int main(){
     displayIntro();
     int x,y=10;
