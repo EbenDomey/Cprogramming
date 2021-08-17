@@ -19,16 +19,17 @@ int main(){
         printf("%d,",a[j]);//for sorted in descending;
     }
     printf("\n");*/
-    largest=a[1];
-    secLargest=a[2];
+    largest=a[0];
+    secLargest=a[1];
     for(i=0;i<10;i++){
+        printf("%d,",a[i]);
         if(a[i]>largest){
-            largest=a[i];
             secLargest=largest;
+            largest=a[i];
     }
     else if(a[i]>secLargest &&a[i]!=largest){
         secLargest=a[i];
 }
 }
-printf("Largest is %d\nSecond largest is %d\n",largest,secLargest);
+printf("\nLargest is %d\nSecond largest is %d\n",largest,secLargest);
 }
