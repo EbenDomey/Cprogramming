@@ -10,7 +10,7 @@ int main(){
     printf("\t\t******************************\n");
     printf("\t\t*            UGTV            *\n");
     printf("\t\t******************************\n");
-    printf("Account Number: ");//Account number for residential is 110568 and business account is 115162
+    printf("Account Number: ");//Residential Account is 110568 and Business Account is 115162
     scanf("%d",&acc);//User inputs his or her account number
     printf("Password: ");
     scanf("%d",&pass);//User inputs his or her password

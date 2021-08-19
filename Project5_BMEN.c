@@ -1,20 +1,21 @@
 #include<stdio.h>
-#include<math.h>
-int rootQuadraticFinder(float a, float b, float c);
+#include<math.h>//included math.h header file for the use of pow function
+int rootQuadraticFinder(float, float, float);//function prototype
 
 int main(){
-    float q,o,f;
-    printf("\n\na: ");
-    scanf("%f",&q);
-    printf("b: ");
-    scanf("%f",&f);
-    printf("c: ");
-    scanf("%f",&o);
-    rootQuadraticFinder(q,f,o);
+    float a,b,c;//global variable declaration
+    printf("Considering an equation ax2+bx+c=0\n");
+    printf("A: ");
+    scanf("%f",&a);
+    printf("B: ");
+    scanf("%f",&b);
+    printf("C: ");
+    scanf("%f",&c);
+    rootQuadraticFinder(a,b,c);//function call by value of parameters
 }
-
+//definition of the return type function with 3 formal parameters
 int rootQuadraticFinder(float a, float b, float c){
-    float t,x,y;
+    float t,x,y;//local variable declaration
     t=(float)pow(b,2)-4*(a*c);
     if(t<0){
         printf("This quadratic equation will return complex roots\n");
