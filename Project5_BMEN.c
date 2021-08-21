@@ -4,7 +4,7 @@ int rootQuadraticFinder(float, float, float);//function prototype
 
 int main(){
     float a,b,c;//global variable declaration
-    printf("Considering an equation ax2+bx+c=0\n");
+    printf("Considering an equation ax^2+bx+c=0\n");
     printf("A: ");
     scanf("%f",&a);
     printf("B: ");
