@@ -11,7 +11,7 @@ void displayIntro(){
     printf("*********************************************************\n");
     printf("*             Programming Assignment 1                  *\n");
     printf("*              Computer Programming 1                   *\n");
-    printf("*                Author: Group Effort                   *\n");
-    printf("*             Due Date: Saturday, August 24, 2021       *\n");
+    printf("*                Author: Ebenezer Domey                 *\n");
+    printf("*             Due Date: Sunday, August 22, 2021         *\n");
     printf("*********************************************************\n");
 }
