@@ -17,7 +17,7 @@ int main(){
             secLargest =temp;
         }
     }
-    printf("Largest is %d\nSecond largest is %d\n",largest,secLargest);*/
+    printf("Largest is %d\nSecond largest is %d\n",largest,secLargest);
     int matA[2][2],matB[2][2],i,j;
     for(i=0;i<2;i++){
         for(j=0;j<2;j++){
@@ -53,6 +53,19 @@ int main(){
             printf("%d\t",matA[i][j]+matB[i][j]);
         }
         printf("\n");
+    }*/
+    int digit,digit1,digit2,digit3,digit4,digitA,digitB,digitC;
+    printf("Please input a four digit number\n");
+    scanf("%d",&digit);
+    digit1=digit%10;
+    digitA=digit/10;
+    digit2=digitA%10;
+    digitB=digit/100;
+    digit3=digitB%10;
+    digitC=digit/1000;
+    digit4=digitC%10;
+    if(digit1==digit2==digit3){
+        printf("All numbers are the same\n");
     }
 
 }
