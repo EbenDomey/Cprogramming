@@ -1,71 +1,12 @@
 #include<stdio.h>
 int main(){
-    /*int largest,secLargest,temp,i=0,j,n;
-    int a[14];
-    largest =a[0];
-    secLargest =a[1];
-    printf("How many numbers do u wanna input?\n");
-    scanf("%d",&n);
-    for(j=0;j<n+1;j++){
-        printf("%d: ",j);
-        scanf("%d",&a[j]);
+    int n,sum=0,r,temp;
+    int a[10];
+    for(n=0;n<10;n++){
+        printf("[%d]: ",n);
+        scanf("%d",&a[n]);
     }
-    for(;i<12;i++){
-        if(a[i]>largest){
-            temp=largest;
-            largest =a[i];
-            secLargest =temp;
-        }
+    for(n=0;n<10;n++){
+        printf("[%d ",n);
     }
-    printf("Largest is %d\nSecond largest is %d\n",largest,secLargest);
-    int matA[2][2],matB[2][2],i,j;
-    for(i=0;i<2;i++){
-        for(j=0;j<2;j++){
-            printf("matA[%d][%d]: ",i,j);
-            scanf("%d",&matA[i][j]);
-        }
-        printf("\n");
-    }
-    for(i=0;i<2;i++){
-        for(j=0;j<2;j++){
-            printf("matB[%d][%d]: ",i,j);
-            scanf("%d",&matB[i][j]);
-        }
-        printf("\n");
-    }
-    printf("MatA:\n");
-    for(i=0;i<2;i++){
-        for(j=0;j<2;j++){
-            printf("%d\t",matA[i][j]);
-        }
-        printf("\n");
-    }
-    printf("MatB:\n");
-    for(i=0;i<2;i++){
-        for(j=0;j<2;j++){
-            printf("%d\t",matB[i][j]);
-        }
-        printf("\n");
-    }
-    printf("\nResulting matrix:\n");
-    for(i=0;i<2;i++){
-        for(j=0;j<2;j++){
-            printf("%d\t",matA[i][j]+matB[i][j]);
-        }
-        printf("\n");
-    }*/
-    int digit,digit1,digit2,digit3,digit4,digitA,digitB,digitC;
-    printf("Please input a four digit number\n");
-    scanf("%d",&digit);
-    digit1=digit%10;
-    digitA=digit/10;
-    digit2=digitA%10;
-    digitB=digit/100;
-    digit3=digitB%10;
-    digitC=digit/1000;
-    digit4=digitC%10;
-    if(digit1==digit2==digit3){
-        printf("All numbers are the same\n");
-    }
-
 }
