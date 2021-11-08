@@ -1,4 +1,5 @@
 #include<stdio.h>
+int powexp(int, int, int *);
 int main(){
     int a[14]={100,3,4,567,8746,6,32,908,10};
     int sec[9];
@@ -12,9 +13,6 @@ int main(){
         }
     }
     printf("Max: %d\nMin: %d\n",largest,a[0]);
-    for(int i=0;i<9;i++){
-        printf("%d, ",sec[i]);
-    }
 
     /*int r,sum=0,temp,n;
     printf("Input a number\n");
@@ -29,4 +27,16 @@ int main(){
     }else{
         printf("Its not an armstrong number\n");
     }*/
+    int c;
+    powexp(2,10,&c);
+    printf("\n%d\n",c);
+}
+
+int powexp(int a,int b,int *c){
+    int i=1;
+    for(;b>0;b--){
+        i=i*a;
+    }
+    *c=i;
+    return *c;
 }
