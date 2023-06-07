@@ -1,5 +1,6 @@
-#include<stdio.h>
-int main(){
+#include <stdio.h>
+int main()
+{
     /*for(fact=1;num>1;num--){
         fact=fact*num;
         printf("%d\n",fact);
@@ -46,25 +47,29 @@ int main(){
         printf("Armstrong number\n");
     }else{
         printf("Not an armstrong number\n");
-    }
-    int largest,secLargest,temp,i=0,j,n;
+    }*/
+    int largest, secLargest, temp, i = 0, j, n;
     int a[14];
-    largest =a[0];
-    secLargest =a[1];
+    largest = a[0];
+    secLargest = a[1];
     printf("How many numbers do u wanna input?\n");
-    scanf("%d",&n);
-    for(j=0;j<n+1;j++){
-        printf("%d: ",j);
-        scanf("%d",&a[j]);
+    scanf("%d", &n);
+    for (j = 0; j < n + 1; j++)
+    {
+        printf("%d: ", j);
+        scanf("%d", &a[j]);
     }
-    for(;i<12;i++){
-        if(a[i]>largest){
-            temp=largest;
-            largest =a[i];
-            secLargest =temp;
+    for (; i < 12; i++)
+    {
+        if (a[i] > largest)
+        {
+            temp = largest;
+            largest = a[i];
+            secLargest = temp;
         }
     }
-    printf("Largest is %d\nSecond largest is %d\n",largest,secLargest);
+    printf("Largest is %d\nSecond largest is %d\n", largest, secLargest);
+    /*
     int matA[2][2],matB[2][2],i,j;
     for(i=0;i<2;i++){
         for(j=0;j<2;j++){
